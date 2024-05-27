@@ -37,6 +37,7 @@ const Todo = () => {
 
   return (
     <div className='todo'>
+        
         <div className='todo-header'>To-Do App</div>
         <div className='todo-add'>
             <input ref={inputRef} type='text' placeholder='Add Your Task' className='todo-input'/>

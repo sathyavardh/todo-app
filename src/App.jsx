@@ -3,7 +3,7 @@ import Todo from "./Components/Todo"
 const App = () => {
 
   return (
-    <div>
+    <div className=" overflow-hidden h-screen">
       <Todo/>
       
     </div>
